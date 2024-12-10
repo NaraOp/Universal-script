@@ -1,5 +1,5 @@
 --RELOAD GUI
-if game.CoreGui:FindFirstChild("NRA") then
+if game.CoreGui:FindFirstChild("SysBroker") then
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Nara GUI",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
@@ -412,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "____/SYSTEMBROKEN\\___"
+TitleBarLabel.Text = "____/NARATHINGS\\___"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -1906,7 +1906,7 @@ Credits_Label.BorderSizePixel = 0
 Credits_Label.Position = UDim2.new(0, 25, 0, 150)
 Credits_Label.Size = UDim2.new(0, 350, 0, 150)
 Credits_Label.Font = Enum.Font.SourceSans
-Credits_Label.Text = "Made by: MalwareHUB \nDiscord: system_calix\nVersion: "..version
+Credits_Label.Text = "Made by: secret \nDiscord: forACE\nVersion: "..version
 Credits_Label.TextColor3 = Color3.fromRGB(0, 255, 255)
 Credits_Label.TextSize = 24.000
 Credits_Label.TextWrapped = true
@@ -3535,6 +3535,5 @@ game:GetService("UserInputService").InputBegan:Connect(function(input,gameProces
 	end
 end)
 
-SendNotify("Nara Gui","Gui developed by MalwareHub - Discord in your clipboard",10)
+SendNotify("forACE Gui","Gui developed by secret - Discord in your clipboard",10)
 setclipboard("https://discord.gg/bezBRNJR")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/premium"))() -- load the premium
